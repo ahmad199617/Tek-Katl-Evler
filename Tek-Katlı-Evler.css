@@ -718,10 +718,80 @@
 
 
                             }
+                            /*****************FILTAR**********************/
+                            .FILTAR-section{
+                                width: 100%;
+                                margin-top: 20px;
+                                display: flex;
+                                align-content: center;
+                                justify-content: center;
+                            }
+                            .FILTAR-div-M{
+                                width: 60%;
+                                height: 50px;
+                                outline-style: solid;
+                                outline-width: 1px;
+                                outline-color: #333;
+
+                                display: flex;
+                            }
+                            .FILTAR-div-IMG {
+                                width: 50px;
+                                height: 50px;
+                                display: flex;
+                                justify-content: center;
+                                align-content: center;
+                                background-color: #1A4990;
+                                overflow: hidden;
+                                align-items: center;
+                                cursor: pointer;
+                            }
+                            .FILTAR-div-IMG img {height: 90%;}
+                            
+                            
+                            
+                            .FILTAR-div-F {
+                                height: 100%;
+                                border-style: solid;
+                                border-width: 1px;
+                                border-color: #333;
+                                border-bottom-style: unset;
+                                border-top-style: unset;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+                            }
+                            .FILTAR-div-F p {
+                                margin: 0;
+                                margin-left: 10px;
+                                margin-right: 10px;
+                                font-size: 20px;
+                                font-family: 'Bebas Neue', cursive;
+                                color: #1A4990;
+
+                            }
+
+                            .FILTAR-div-F:hover {background-color: #1A4990;}
+                            .FILTAR-div-F:hover p {color: #ffffff;}
+                            .FILTAR-div-IMG:hover {background-color: white;}
+                            .FILTAR-div-IMG:hover img {content: url(./images/filter-SE.png);}
+
+
+
+                            
+
+
+
+
+
+
+
+
                         /*****************PRODUCTS**********************/
                         .PRODUCTS-section{
                             
-                            margin-top: 100px;
+                            margin-top: 40px;
                             margin-bottom: 40px;
                             width: 100%;
                             display: flex;

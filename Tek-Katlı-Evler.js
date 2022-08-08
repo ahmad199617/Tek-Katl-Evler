@@ -81,4 +81,24 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 
     
-    
+    function filter50 (){
+
+        $('[filtet="50"]').show();
+        $('[filtet="100"]').hide();
+        $('[filtet="200"]').hide();
+
+    }
+    function filter100 (){
+
+        $('[filtet="50"]').hide();
+        $('[filtet="100"]').show();
+        $('[filtet="200"]').hide();
+
+    }
+    function filter200 (){
+
+        $('[filtet="50"]').hide();
+        $('[filtet="100"]').hide();
+        $('[filtet="200"]').show();
+
+    }
