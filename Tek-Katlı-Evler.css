@@ -879,11 +879,126 @@
                             position: absolute;
                             opacity: 0%;
                         }
+                        /*****************PRODUCTS phone**********************/
+                        @media only screen and (max-width: 1000px) {
+                            .PRODUCTS-section {
+                                margin-top: 40px;
+                                margin-bottom: 40px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-content: center;
+                            }
+                            .PRODUCTS-M-DIV {
+                                width: 90%;
+                                display: flex;
+                                flex-wrap: nowrap;
+                                flex-direction: column;
+                            }
+                            .item-div {
+                                width: 100%;
+                                height: auto; 
+                                display: flex;
+                                flex-direction: column;
+                                align-content: center;
+                                align-items: center;
+                                outline-style: solid;
+                                outline-width: 1px;
+                                outline-color: #333;
+                                margin-bottom: 50px;
+                            }
+                            .itam-img {
+                                width: 100%;
+                                 height: auto;
+                                background-color: red;
+                                overflow: hidden;
+                                display: flex;
+                                align-items: stretch;
+                                justify-content: center;
+                            }
+                            .itam-text-div {
+                                width: 100%;
+                                 height: auto; 
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            .itam-img a {
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: stretch;
+                            }
+                            .itam-text-div-M {
+                                height: 40px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                            .itam-text-div-S {
+                                height: 30px;
+                                width: 100%;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: flex-end;
+                            }
+                            .itam-img-M{
+                                width: 100%;
+                            }
+
+
+
+
+
+
+
+                        }
                         /*****************PRODUCTS hover**********************/
                         .itam-img-M{transition: all 0.2s;}
 
                         .itam-text-div-SS:hover .line-text{opacity: 100%;}
                         .itam-img-M:hover {transform: scale(1.2);}
+                        
+                        /*****************PRODUCTS phone**********************/
+                        @media only screen and (max-width: 1000px) {
+                            .FILTAR-div-M {
+                                width: 90%;
+                                height: 40px;
+                                outline-style: solid;
+                                outline-width: 1px;
+                                outline-color: #333;
+                                display: flex;
+                            }
+                            .FILTAR-div-IMG {
+                                width: 40px;
+                                height: 40px;
+                                display: flex;
+                                justify-content: center;
+                                align-content: center;
+                                background-color: #1A4990;
+                                overflow: hidden;
+                                align-items: center;
+                                cursor: pointer;
+                            }
+                            .FILTAR-div-F {
+                                height: 100%;
+                                border-style: solid;
+                                border-width: 1px;
+                                border-color: #333;
+                                border-bottom-style: unset;
+                                border-top-style: unset;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                cursor: pointer;
+                            }
+
+
+
+
+                        }                        
 
                         /*****************Special**********************/
                         .Special-section{ 
@@ -996,6 +1111,39 @@
                         .Special-info-img img{
                             width: inherit;
                         }
+                        
+                        /*****************Special phone**********************/
+                        @media only screen and (max-width: 1000px) {
+
+
+                            .Special-div {
+                                width: 90%;
+                                display: flex;
+                                flex-direction: column;
+                                box-shadow: 0px 0px 15px #0f0f0f;
+                            }
+                            .Special-div-CO {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            .Special-div-PH {
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                            }
+                            .Special-div-EM {
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: space-between;
+                            }
+                        }                        
+
 
 
 

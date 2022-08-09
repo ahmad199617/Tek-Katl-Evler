@@ -81,11 +81,50 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 
     
-    function filter50 (){
+    
+    function filter00 (){
 
+        $('[filtet="50"]').show();
+        $('[filtet="100"]').show();
+        $('[filtet="200"]').show();
+
+        document.querySelector(".FILTAR-div-IMG").style.backgroundColor= "#1A4990";
+        document.querySelector(".FILTAR-div-IMG img").style.content= "url(./images/filter.png)";
+        
+        document.querySelector(".M50").style.backgroundColor= "white";
+        document.querySelector(".M50 p").style.color= "#1A4990";
+
+        document.querySelector(".M100").style.backgroundColor= "white";
+        document.querySelector(".M100 p").style.color= "#1A4990";
+
+        document.querySelector(".M200").style.backgroundColor= "white";
+        document.querySelector(".M200 p").style.color= "#1A4990";
+        
+    }
+    
+    
+    function filter50 (){
+        
         $('[filtet="50"]').show();
         $('[filtet="100"]').hide();
         $('[filtet="200"]').hide();
+
+        document.querySelector(".FILTAR-div-IMG").style.backgroundColor= "white";
+        document.querySelector(".FILTAR-div-IMG img").style.content= "url(./images/filter-SE.png)";
+        
+        document.querySelector(".M50").style.backgroundColor= "#1A4990";
+        document.querySelector(".M50 p").style.color= "white";
+
+        document.querySelector(".M100").style.backgroundColor= "white";
+        document.querySelector(".M100 p").style.color= "#1A4990";
+
+        document.querySelector(".M200").style.backgroundColor= "white";
+        document.querySelector(".M200 p").style.color= "#1A4990";
+       
+        
+        
+        
+        
 
     }
     function filter100 (){
@@ -94,6 +133,18 @@ document.addEventListener("DOMContentLoaded", function(){
         $('[filtet="100"]').show();
         $('[filtet="200"]').hide();
 
+        document.querySelector(".FILTAR-div-IMG").style.backgroundColor= "white";
+        document.querySelector(".FILTAR-div-IMG img").style.content= "url(./images/filter-SE.png)";
+        
+        document.querySelector(".M50").style.backgroundColor= "white";
+        document.querySelector(".M50 p").style.color= "#1A4990";
+
+        document.querySelector(".M100").style.backgroundColor= "#1A4990";
+        document.querySelector(".M100 p").style.color= "white";
+
+        document.querySelector(".M200").style.backgroundColor= "white";
+        document.querySelector(".M200 p").style.color= "#1A4990";
+
     }
     function filter200 (){
 
@@ -101,4 +152,16 @@ document.addEventListener("DOMContentLoaded", function(){
         $('[filtet="100"]').hide();
         $('[filtet="200"]').show();
 
+
+        document.querySelector(".FILTAR-div-IMG").style.backgroundColor= "white";
+        document.querySelector(".FILTAR-div-IMG img").style.content= "url(./images/filter-SE.png)";
+        
+        document.querySelector(".M50").style.backgroundColor= "white";
+        document.querySelector(".M50 p").style.color= "#1A4990";
+
+        document.querySelector(".M100").style.backgroundColor= "white";
+        document.querySelector(".M100 p").style.color= "#1A4990";
+
+        document.querySelector(".M200").style.backgroundColor= "#1A4990";
+        document.querySelector(".M200 p").style.color= "white";
     }
