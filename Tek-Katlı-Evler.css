@@ -821,7 +821,6 @@
                         .itam-img {
                             width: 320px;
                             height: 320px;
-                            background-color: red;
                             overflow: hidden;
                             display: flex;
                             align-items: stretch;
