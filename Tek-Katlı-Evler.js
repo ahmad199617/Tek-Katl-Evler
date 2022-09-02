@@ -165,3 +165,42 @@ document.addEventListener("DOMContentLoaded", function(){
         document.querySelector(".M200").style.backgroundColor= "#1A4990";
         document.querySelector(".M200 p").style.color= "white";
     }
+
+    function setIMG(IMGURL) {
+            
+            
+        var imglink=IMGURL
+                   
+        
+        $('.imgXX').css({'content' : 'url(' + imglink + ')'});
+        $('.backgrund').css({'opacity': '100%'});
+        $('.backgrund').css({'z-index': '1000'});
+        
+       
+
+        
+    }
+
+       document.querySelector(".closex").addEventListener("click", close, false);
+       
+       document.querySelector(".backgrund-black").addEventListener("click", close, false);
+    
+    
+        function close() {
+        
+        
+        {myVar  = setTimeout(zindex, 300);}
+        
+        
+        $('.backgrund').css({'opacity': '0%'});
+        }
+
+        
+        
+        
+        function zindex() {
+            $('.backgrund').css({'z-index': '-1000'});
+
+
+
+        }
